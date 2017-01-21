@@ -14,7 +14,7 @@ export class ProductsService {
   }
 
   getProducts(): Observable<Product[]> {
-    var url = 'http://search-fittery-challenge-pv7vc3ugoko5hngpgxdh4szuqm.us-east-1.es.amazonaws.com/items/_search?size=12';
+    var url = 'https://search-fittery-challenge-pv7vc3ugoko5hngpgxdh4szuqm.us-east-1.es.amazonaws.com/items/_search?size=12';
     return this.http.get(url)
       .map(this.extractData)
       .catch(this.handleError);
