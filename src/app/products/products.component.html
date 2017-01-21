@@ -1,0 +1,19 @@
+
+<div class="wrapper products-wrapper">
+<div class="container-fluid">
+  <h2>Products</h2>
+  <p class="text-muted text-right small">showing first 12</p>
+  <div class="row">
+    <div class="col-4 product-item" *ngFor="let p of products">
+      <img src="{{p.image}}" class="img-responsive product-img" />
+      <div class="text">
+        <p class="text-muted">{{p.name}}</p>
+        <p class="text-muted">{{p.price | currency:'USD':true:'1.2-2'}}</p>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+</div>
+

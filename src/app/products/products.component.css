@@ -1,0 +1,16 @@
+.products-wrapper {
+    padding: 50px;
+    background-color: #F2F1F0;
+}
+
+.products-wrapper .product-img {
+    max-height: 360px;
+}
+
+.products-wrapper .product-item {
+    padding-bottom: 35px;
+}
+
+.products-wrapper .text p {
+    margin-bottom: 2px;
+}
